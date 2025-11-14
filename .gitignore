@@ -1,0 +1,37 @@
+# ===== Python cache =====
+__pycache__/
+*.pyc
+
+# ===== IDE / Editor =====
+.idea/
+.vscode/
+
+# ===== Log / Results / Training Output =====
+TrainProcess/
+checkpoints/
+*.txt
+*.log
+
+# ===== Datasets, intermediate data =====
+*.zip
+*.7z
+*.npy
+*.npz
+
+# ===== Temporary folders (可能包含中文路径) =====
+task1-1/
+windows*/
+*/
+
+# ===== Ignore everything except .py and environment =====
+# Allow only these file types (whitelist)
+!.gitignore
+!*.py
+!README.md
+!environment.yml
+
+# ===== Avoid including accidentally added binary large files =====
+*.jpg
+*.png
+*.bmp
+*.csv

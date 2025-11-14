@@ -1,0 +1,14 @@
+name: medood
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scikit-learn
+  - pillow
+  - tqdm
+  - pip
+  - pip:
+      - torch
+      - torchvision
