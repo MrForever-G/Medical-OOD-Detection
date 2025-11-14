@@ -1,4 +1,4 @@
-本项目是医学图像 开放集 / 外分布检测（OOD Detection） 方案
+本项目是医学图像 开放集 / 外分布检测（OOD Detection） 初步方案
 主体基于 ResNet50 + 分类头 + OOD 二分类头
 OOD 包含两类：
 伪 OOD（Pseudo-OOD）：多层级增强 + 特征扰动
